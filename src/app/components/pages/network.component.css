@@ -1,0 +1,156 @@
+.pro-page {
+    font-family: poppins, sans-serif;
+}
+
+.network h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.network {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.network p {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 1.8;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 2.2;
+}
+
+.pro-flat {
+    padding-right: 0px!important;
+    padding-left: 0px!Important;
+}
+
+.virtual h2 {
+    font-size: 24px!important;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.ul-network li {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.value h2 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.value p {
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    font-family: poppins, sans-serif;
+    line-height: 1.8;
+}
+
+.btn-pro {
+    background-color: #037B40;
+    color: #fff;
+    padding: 10px 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.value img {
+    width: 60px;
+    padding-bottom: 15px;
+}
+
+.prof-b2 {
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.prof-b2 {
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.obj h2 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.obj p {
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    font-family: poppins, sans-serif;
+    line-height: 1.8;
+}
+
+.pro-net {
+    text-align: center;
+    font-size: 18px;
+    font-family: poppins, sans-serif;
+    padding-bottom: 30px;
+}
+
+.obj {
+    padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .network h2 {
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 15px;
+    }
+    .network {
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .network p {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .virtual h2 {
+        font-size: 16px!important;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .ul-network li {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+    .value h2 {
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+    .value p {
+        font-size: 14px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+    .value {
+        padding-left: 10px;
+    }
+    .pro-net {
+        font-size: 16px;
+        font-family: poppins, sans-serif;
+        padding-bottom: 20px;
+    }
+    .pro-net h2 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .obj h2 {
+        padding-top: 15px;
+    }
+}

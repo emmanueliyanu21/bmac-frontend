@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^onebmac.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.onebmac.com$
+RewriteCond %{REQUEST_URI} !dist/my-prompt/
+RewriteRule (.*) /dist/my-prompt/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^(.*) /index.html [NC,L]
